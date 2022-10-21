@@ -37,18 +37,18 @@ extension View {
 }
 
 // An example ViewModifier subclass
-struct forceDarkMode: ViewModifier {
+struct redBackground: ViewModifier {
     func body(content: Content) -> some View {
-        content.preferredColorScheme(.dark)
+        content.background(Color.red)
     }
 }
 
 /* Sample usage
+ var useRedBackground = true
  
  var body: some View{
      NavigationView{
     ....
-    }.conditionalModifier(darkMode, ForceDarkMode())
+    }.conditionalModifier(useRedBackground, redBackground())
  }
- 
 */
