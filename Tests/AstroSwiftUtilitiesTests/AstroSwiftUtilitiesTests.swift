@@ -1,11 +1,11 @@
 import XCTest
-@testable import SwiftUtilities
+@testable import AstroSwiftUtilities
 
-final class SwiftUtilitiesTests: XCTestCase {
+final class AstroSwiftUtilitiesTests: XCTestCase {
     func testExample() throws {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct
         // results.
-        XCTAssertEqual(SwiftUtilities().text, "Hello, World!")
+        XCTAssertEqual(AstroSwiftUtilities().text, "Hello, World!")
     }
 }
