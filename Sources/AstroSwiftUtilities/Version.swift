@@ -6,7 +6,7 @@
 
 import Foundation
 
-func versionString()->String
+public func versionString()->String
 {
     let version:String = Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String ?? "Unknown"
     let build = Bundle.main.object(forInfoDictionaryKey: "CFBundleVersion") as? String ?? "Unknown"
