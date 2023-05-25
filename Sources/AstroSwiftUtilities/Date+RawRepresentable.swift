@@ -7,7 +7,7 @@
 
 import Foundation
 
-// Make Date storeable by @AppStorage
+// Make Date storable by @AppStorage
 extension Date : RawRepresentable {
     public var rawValue: String {
         self.timeIntervalSinceReferenceDate.description
