@@ -3,7 +3,7 @@
 A collection of handy swift code used in our sample apps
 
 New in Version 1.1
-• Date+RawRepresentable - makes Date storeable by @AppStorage
+• Date+RawRepresentable - makes Date storable by @AppStorage
 
 New in Version 1.0.2
 • No new features, just build change
